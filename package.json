@@ -1,0 +1,36 @@
+{
+  "name": "donesies",
+  "version": "0.0.0",
+  "description": "Add AbortSignal integration into Hapi",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "lab -a @hapi/code -t 100 -L -Y",
+    "test-cov-html": "lab -a @hapi/code -r html -o coverage.html"
+  },
+  "keywords": [
+    "hapi",
+    "plugin"
+  ],
+  "author": "Gil Pedersen <gpdev@gpost.dk>",
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": ">=22.11.0"
+  },
+  "peerDependencies": {
+    "@hapi/hapi": ">=21.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@hapi/code": "^9.0.3",
+    "@hapi/hapi": "^21.4.9",
+    "@hapi/hoek": "^11.0.7",
+    "@hapi/lab": "^26.0.1",
+    "@types/node": "^22.19.18",
+    "joi": "^18.2.1",
+    "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "@hapi/shot": "kanongil/shot#3130ff0"
+  }
+}
