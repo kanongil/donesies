@@ -18,7 +18,8 @@
     "node": ">=22.11.0"
   },
   "peerDependencies": {
-    "@hapi/hapi": ">=21.0.0"
+    "@hapi/hapi": ">=21.0.0",
+    "@hapi/shot": ">=6.0.3"
   },
   "dependencies": {},
   "devDependencies": {
@@ -29,8 +30,5 @@
     "@types/node": "^22.19.18",
     "joi": "^18.2.1",
     "typescript": "^6.0.3"
-  },
-  "overrides": {
-    "@hapi/shot": "kanongil/shot#3130ff0"
   }
 }

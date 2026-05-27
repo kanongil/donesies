@@ -30,4 +30,4 @@ closed by the remote end, from a connection error, or from internal processing o
 
 ### Known issues
 
-Currently times out when used with `server.inject()`ed requests. Awaiting fix in [hapijs/shot#152](https://github.com/hapijs/shot/pull/152).
+When using with `server.inject()`, the `@hapi/shot` module needs to be version 6.0.3 or newer.
